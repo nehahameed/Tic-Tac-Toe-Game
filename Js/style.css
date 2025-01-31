@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    color: whitesmoke; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.body{
+    background-image: url(./360_F_269545518_8d3T8CD1rLG7m092dTfd5Ij6cg2K1ya0.jpg);
+    text-align: center;
+}
+
+.display{
+    color: white;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border-color: rgb(218, 72, 192);
+    box-shadow: 0 0 1rem rgba(214, 78, 214, 0.6);
+    font-size: 8vmin;
+    color: #846075;
+    background-color: black;
+}
+
+#reset-btn{
+    padding: 8px;
+    font-size: 1rem;
+    background-color: #846075;
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 8px;
+    font-size: 1rem;
+    background-color: #322E18;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: white;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
